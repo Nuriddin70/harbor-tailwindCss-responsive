@@ -16,12 +16,12 @@ export const Navbar = () => {
         harbor
       </h1>
       <ul className='hidden md:flex text-[#65727B]'>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'> Home</li>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>About</li>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Know Your Risks</li>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>For Work</li>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Journal</li>
-        <li className='px-5 py-2 text-base hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Shop</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'> Home</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>About</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Know Your Risks</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>For Work</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Journal</li>
+        <li className='px-5 py-2 text-base cursor-pointer hover:bg-gray-400 hover:rounded-[30px] hover:text-[#28514F]'>Shop</li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
