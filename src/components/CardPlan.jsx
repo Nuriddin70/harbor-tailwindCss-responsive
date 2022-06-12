@@ -4,19 +4,19 @@ import { AiFillGolden } from "react-icons/ai";
 
 const CardPlan = () => {
   return (
-    <div className='flex flex-col justify-center'>
-      <div className=' max-w-[645px] mx-auto w-full h-screen text-center flex flex-col justify-center'>
+    <div className='flex flex-col justify-center mt-40'>
+      <div className=' max-w-[645px] mx-auto w-full  text-center flex flex-col justify-center'>
         <h2 className='text-5xl text-[#28514F] font-medium'>The right plan for when things don't go as planned</h2>
-        <p className='text-gray-500 text-[21px] leading-8 text-center mt-9'>
+        <p className='text-gray-500 text-[21px] leading-8 text-center mt-9 mb-28'>
           Not prepared? You're not alone. Emergency planning
           is overwhelming. We work with experts to make the hard
           parts easy, so you can have confidence when it matters most.
         </p>
       </div>
 
-      <div>
-        <div className=' flex max-w-[940px] mx-auto items-end  '>
-          <div className='p-12 bg-[#DAE1F4] rounded-2xl mr-5'>
+      <div className='flex flex-col justify-center '>
+        <div className='max-w-[940px] mx-auto flex flex-col justify-center  md:flex-row items-end  '>
+          <div className='p-12 bg-[#DAE1F4] rounded-2xl m-5'>
             <input className='mb-10' type="image" src={CardImg} alt="Card Image"/>
             <AiFillGolden size={24}/>
             <h2 className='text-[2.4rem] font-bold mt-4 mb-8 '>Create your family's emergency plan</h2>
@@ -27,7 +27,7 @@ const CardPlan = () => {
             </p>
           </div>
 
-          <div className='p-12 bg-[#D0E6F3] rounded-2xl'>
+          <div className='p-12 bg-[#D0E6F3] rounded-2xl m-5'>
           <AiFillGolden size={24}/>
           <h2 className='text-[2.4rem] font-bold mb-3 mt-4'>
             Access and share important information, even offline
@@ -40,8 +40,8 @@ const CardPlan = () => {
           </div>
       </div>
 
-      <div className='flex max-w-[940px] mx-auto items-start mt-3 '>
-        <div className='p-12 bg-[#E0F0E6] rounded-2xl mr-5'>
+      <div className='max-w-[940px] mx-auto flex flex-col justify-center md:flex-row items-start mt-3 '>
+        <div className=' p-12 bg-[#E0F0E6] rounded-2xl m-5'>
           <AiFillGolden size={24}/>
           <h2 className='text-[2.4rem] font-bold mb-3 mt-4'>
             Access and share important information, even offline
@@ -53,7 +53,7 @@ const CardPlan = () => {
           <input  type="image" src={CardImg} alt="Card Image"/>
         </div>
 
-          <div className='p-12 bg-[#F4F0E9] rounded-2xl '>
+          <div className='p-12 bg-[#F4F0E9] rounded-2xl m-5 '>
             <input className='mb-10' type="image" src={CardImg} alt="Card Image"/>
             <AiFillGolden size={24}/>
             <h2 className='text-[2.4rem] font-bold mt-4 mb-8 '>Create your family's emergency plan</h2>
