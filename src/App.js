@@ -4,6 +4,7 @@ import { Comments } from "./components/Comments";
 import EmailUs from "./components/EmailUs";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import OurApp from "./components/OurApp";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CardPlan />
       <Comments />
       <EmailUs />
+      <OurApp />
     </div>
       
   );

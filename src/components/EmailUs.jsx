@@ -3,7 +3,7 @@ import Yard from './Assets/yard.png'
 
 const EmailUs = () => {
   return (
-    <div className='w-full bg-[#28514F] '>
+    <div className='w-full bg-[#28514F]'>
       <div className='max-w-[650px] mx-auto flex flex-col justify-center items-center text-center'>
         <h1 className='text-5xl text-white mt-60'>
           Our mission is to encourage readiness for all
